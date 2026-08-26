@@ -1,5 +1,37 @@
 {
+  "python.defaultInterpreterPath": "/Users/jeremi/.tea/environments/tea/bin/python",
   "python.analysis.extraPaths": [
     "./bin"
+  ],
+  "python-envs.workspaceSearchPaths": [
+    ".venv",
+    "*/.venv",
+    "/Users/jeremi/.tea/environments"
+  ],
+  "ruff.path": [
+    "/Users/jeremi/.tea/environments/tea/bin/ruff"
+  ],
+  "C_Cpp.clang_format_path": "/Users/jeremi/.tea/environments/tea/bin/clang-format",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_style": "file",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "ruff.configuration": "/Users/jeremi/Documents/Physics/tea_dev.nosync/tea/ruff.toml",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "ruff.interpreter": [
+    "/Users/jeremi/.tea/environments/tea/bin/python"
+  ],
+  "autopep8.args": [
+    "--indent-size",
+    "2",
+    "--ignore",
+    "E12,E13,E226,E24,W50,W690",
+    "--max-line-length",
+    "120"
   ]
 }
