@@ -18,7 +18,7 @@
   "python-envs.defaultPackageManager": "ms-python.python:conda",
   "ruff.configuration": "/Users/jeremi/Documents/Physics/tea_dev.nosync/tea/ruff.toml",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.defaultFormatter": "local.tuple-table-formatter",
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.formatOnSave": true
@@ -33,5 +33,7 @@
     "E12,E13,E226,E24,W50,W690",
     "--max-line-length",
     "120"
-  ]
+  ],
+  "tupleTableFormatter.backend": "autopep8",
+  "tupleTableFormatter.executable": ""
 }
